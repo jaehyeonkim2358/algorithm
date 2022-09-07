@@ -9,11 +9,11 @@
 ---
 
 ### Category
-* math
-* implementation
-* greedy
-* string
-* data structures
-* graphs
-* dynamic programming
-* geometry
+* Math
+* Implementation
+* Greedy
+* String
+* Data structures
+* Graphs
+* Dynamic programming
+* Geometry
