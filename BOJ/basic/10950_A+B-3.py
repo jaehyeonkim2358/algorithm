@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10950
+
+
 import sys
 
 
