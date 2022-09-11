@@ -5,12 +5,8 @@ import sys
 
 
 def main():
-    a, b = map(float, input().split())
-    sys.stdout.write("%d\n" % (a + b))
-    sys.stdout.write("%d\n" % (a - b))
-    sys.stdout.write("%d\n" % (a * b))
-    sys.stdout.write("%d\n" % (a // b))
-    sys.stdout.write("%d" % (a % b))
+    a, b = map(int, sys.stdin.readline().split())
+    sys.stdout.write(f'{a + b}\n{a - b}\n{a * b}\n{a // b}\n{a % b}')
 
 
 if __name__ == '__main__':

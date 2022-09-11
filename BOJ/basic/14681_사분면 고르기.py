@@ -5,9 +5,8 @@ import sys
 
 
 def main():
-    x = int(sys.stdin.readline())
-    y = int(sys.stdin.readline())
-    sys.stdout.write("%d" % (1 if x > 0 and y > 0 else 2 if x < 0 and y > 0 else 3 if x < 0 and y < 0 else 4))
+    x, y = map(int, open(0))
+    sys.stdout.write(f'{"1342"[0 if x * y > 0 else 2:][0 if x > 0 else 1]}')
 
 
 if __name__ == '__main__':

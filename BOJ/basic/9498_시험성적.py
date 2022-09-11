@@ -5,18 +5,8 @@ import sys
 
 
 def main():
-    score = int(sys.stdin.readline())
-    grade = 'F'
-    if 100 >= score >= 90:
-        grade = 'A'
-    elif 89 >= score >= 80:
-        grade = 'B'
-    elif 79 >= score >= 70:
-        grade = 'C'
-    elif 69 >= score >= 60:
-        grade = 'D'
-
-    sys.stdout.write(grade)
+    score = int(sys.stdin.readline()) - 60
+    sys.stdout.write(f'{"FDCBA"[0 if score < 0 else 4 if score == 40 else score // 10 + 1]}')
 
 
 if __name__ == '__main__':
