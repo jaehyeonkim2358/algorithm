@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1068
+
 count = 0
 
 def solution(tree, root, D):
