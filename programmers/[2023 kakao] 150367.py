@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/150367
+
 def solution(numbers):
     answer = []
     for n in numbers:
