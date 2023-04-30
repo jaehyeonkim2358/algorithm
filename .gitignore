@@ -1,2 +1,5 @@
 codingTest/*
-test.py
+test*.*
+Test.*
+Solution.*
+*.class
